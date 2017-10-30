@@ -1,1 +1,54 @@
 # Created by .ignore support plugin (hsz.mobi)
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+#*.off
+*.old
+
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
+
+# idea
+.idea
+*.iml
+
+# building
+target
+build
+null
+dist
+test-output
+build.log
+
+# other scm
+.svn
+.CVS
+.hg*
+.DS_Store
+
+# switch to regexp syntax.
+#  syntax: regexp
+#  ^\.pc/
+
+#SHITTY output not in target directory
+
+metastore_db/
+*.log
+silvery-fox-dao-interface/src/test/
+silvery-fox-domain/src/test/
+spark-warehouse/
+logs/
+.DS_Store
+
+### dengziming
+## dev/
+## CassandraConnectionDebug.scala
+
+silveryfox-spark/silveryfox-spark/
